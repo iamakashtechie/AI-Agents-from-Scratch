@@ -124,7 +124,7 @@ while (true) {
   // Inner agentic loop — keeps calling the LLM until we get a final output
   while (true) {
     const chat = await client.chat.completions.create({
-      model: 'gemini-2.5-flash-lite',   // Change this to your preferred model
+      model: 'gemini-3.5-flash-lite',   // Change this to your preferred model
       messages,
       response_format: { type: 'json_object' }, // Force JSON output
     });
