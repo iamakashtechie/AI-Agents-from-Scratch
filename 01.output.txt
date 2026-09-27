@@ -1,0 +1,137 @@
+>> What is the Weather of Kolkata?
+
+
+------------ START AI ------------
+{ "type": "plan", "plan": "I will call the getWeatherDetails function for Kolkata to get its current weather." }
+------------ END AI ------------
+
+
+
+
+------------ START AI ------------
+{ "type": "action", "function": "getWeatherDetails", "input": "Kolkata" }
+------------ END AI ------------
+
+
+
+
+------------ START AI ------------
+{ "type": "output", "output": "The weather of Kolkata is 10°C." }
+------------ END AI ------------
+
+
+🤖: The weather of Kolkata is 10°C.
+>> What is the Weather of Mumbai? 
+
+
+------------ START AI ------------
+{ "type": "plan", "plan": "I will call the getWeatherDetails function for Mumbai to get its current weather." }
+------------ END AI ------------
+
+
+
+
+------------ START AI ------------
+{ "type": "action", "function": "getWeatherDetails", "input": "Mumbai" }
+------------ END AI ------------
+
+
+
+
+------------ START AI ------------
+{ "type": "output", "output": "The weather of Mumbai is 14°C." }
+
+------------ END AI ------------
+
+
+🤖: The weather of Mumbai is 14°C.
+>> What is the sum of weather of Kolkata and Mumbai?
+
+
+------------ START AI ------------
+{ "type": "plan", "plan": "I will call the getWeatherDetails function for Kolkata" }
+------------ END AI ------------
+
+
+
+
+------------ START AI ------------
+{ "type": "action", "function": "getWeatherDetails", "input": "Kolkata" }
+------------ END AI ------------
+
+
+
+
+------------ START AI ------------
+{ "type": "plan", "plan": "I will call the getWeatherDetails function for Mumbai" }
+------------ END AI ------------
+
+
+
+
+------------ START AI ------------
+{ "type": "action", "function": "getWeatherDetails", "input": "Mumbai" }
+------------ END AI ------------
+
+
+
+
+------------ START AI ------------
+{ "type": "output", "output": "The sum of the weather in Kolkata and Mumbai is 24°C." }
+------------ END AI ------------
+
+
+🤖: The sum of the weather in Kolkata and Mumbai is 24°C.
+>> 
+>> What is the sum of Weather of Kolkata, Mumbai and Banaras?
+
+
+------------ START AI ------------
+{ "type": "plan", "plan": "I will call the getWeatherDetails for Kolkata" }
+------------ END AI ------------
+
+
+
+
+------------ START AI ------------
+{ "type": "action", "function": "getWeatherDetails", "input": "Kolkata" }
+------------ END AI ------------
+
+
+
+
+------------ START AI ------------
+{ "type": "plan", "plan": "I will call the getWeatherDetails for Mumbai" }
+------------ END AI ------------
+
+
+
+
+------------ START AI ------------
+{ "type": "action", "function": "getWeatherDetails", "input": "Mumbai" }
+------------ END AI ------------
+
+
+
+
+------------ START AI ------------
+{ "type": "plan", "plan": "I will call the getWeatherDetails for Banaras" }
+------------ END AI ------------
+
+
+
+
+------------ START AI ------------
+{ "type": "action", "function": "getWeatherDetails", "input": "Banaras" }
+------------ END AI ------------
+
+
+
+
+------------ START AI ------------
+{ "type": "output", "output": "The sum of the weather in Kolkata, Mumbai, and Banaras is 43°C." }
+------------ END AI ------------
+
+
+🤖: The sum of the weather in Kolkata, Mumbai, and Banaras is 43°C.
+>> 

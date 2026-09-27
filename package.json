@@ -1,0 +1,25 @@
+{
+  "name": "ai-agent-from-scratch",
+  "version": "1.0.0",
+  "description": "A minimal AI Agent built from scratch using the ReAct (Reason + Act) pattern, powered by Google Gemini or OpenRouter.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "ai-agent",
+    "gemini",
+    "openrouter",
+    "react-pattern",
+    "tool-calling",
+    "javascript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^18.0.4",
+    "openai": "^7.23.0",
+    "readline-sync": "^1.4.10"
+  }
+}
